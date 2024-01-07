@@ -31,7 +31,7 @@ cd my-chat-app
 ### Backend Setup using Nest Js
  ```bash
 npm i -g @nestjs/cli
-npm i -g @nestjs/cli
+nest new my-chat-backend
 cd my-chat-backend
 ```
 
