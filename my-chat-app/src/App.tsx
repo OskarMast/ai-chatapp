@@ -25,6 +25,7 @@ const App: React.FC = () => {
             2. send-container
             3. background 
           The styling is done in a seperate css file.
+          We will have a full control of this function
 
   */
   const sendMessage = async () => {
