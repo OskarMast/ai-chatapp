@@ -1,4 +1,5 @@
 import { Controller, Post, Body } from '@nestjs/common';
+/*This is a REST API part */
 
 @Controller('chat')
 export class ChatController {
