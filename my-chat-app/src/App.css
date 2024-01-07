@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(270deg, #6ed6ed, #2193b0, #6dd5ed, #2193b0);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.app-title {
+  text-align: center;
+  font-size: 24px; 
+  font-weight: bolder;
+  color: #080f11; 
+  margin-bottom: 20px; 
+  padding-top: 20px; 
+}
+
+
+/* for the chat box*/
+.chat-container {
+  width: 50%;
+  max-width: 600px;
+  min-width: 300px;
+  height: 600px;
+  max-height: 600px;
+  min-height: 300px;
+  padding: 20px;
+  border: 10px solid #6ed6ed;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 15px; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* for the send box*/
+.send-container {
+  display: flex;
+  width: 500px;
+  margin-bottom:30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+
+/* for the input*/
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin-right: 5px;
+  border: 2px solid #2193b0; 
+  border-radius: 5px; 
+}
+
+
+/* for the buttton*/
+button {
+  padding: 10px;
+  border: none;
+  background-color: #2193b0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: #1b7b91;
+}
+
+.message {
+  /* width: 100%;
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;  */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+
+/* for the user message*/
+.message.user {
+  background-color: #e0f7fa;
+  align-self: flex-end;
+  border: 1px solid #0a1112; 
+}
+
+
+/* for the bot message*/
+.message.bot {
+  background-color: #ecfaa9;
+  align-self: flex-start;
+  border: 1px solid #080806; 
+}
