@@ -1,6 +1,6 @@
  # AI Chat Application Interface
 
-This project is an AI chat application interface developed using React for the frontend and Nest.js for the backend. It allows users to interact with an AI assistant through a simple and user-friendly chat interface.
+This project is an AI chat application interface developed using React for the frontend and Nest.js for the backend. It allows users to interact with an AI assistant through a simple and user-friendly chat interface. It uses a REST API in backend that can receive user input from the frontend and respond based on a simple response algorithm that returns predefined responses based on keywords in the user input.
 
 ## Prerequisites
 
