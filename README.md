@@ -5,8 +5,9 @@ This project is an AI chat application interface developed using React for the f
 ## Prerequisites
 
 Before running the application, make sure you have the following installed:
-- Node.js (Preferably the latest version)
+- React.js (Preferably the latest version)
 - npm (Node Package Manager)
+- Nest js
 - Git (For version control)
 
 ## Installation
@@ -20,4 +21,37 @@ First, clone the repository to your local machine:
 ```bash
 git clone https://github.com/kaiwalya-07/AI_CHAT_APP_INTERFACE
 cd AI_CHAT_APP_INTERFACE
+```
+### Frontend Setup using React js (& Typescript)
+ ```bash
+npx create-react-app my-chat-app --template typescript
+cd my-chat-app
+```
 
+### Backend Setup using Nest Js
+ ```bash
+npm i -g @nestjs/cli
+npm i -g @nestjs/cli
+cd my-chat-backend
+```
+
+### Run the Application
+ For the frontend after moving to the directory
+ ```bash
+  npm start
+```
+
+ For the backend after moving to the directory
+ ```bash
+  npm run start
+```
+
+This will launch the React application in your default web browser.
+By default, it will be accessible at http://localhost:3002 (As i have used this in code you may change it).
+
+## Test the project
+ Play with the functionsof chat bot
+
+## Contribute
+#### This project is a basic simple REGEX based response algorithm implementation . It can be mademore vivid and robust using NLP.
+#### Feel free to contribute by making a pull request
