@@ -1,4 +1,4 @@
-# AI Chat Application Interface
+ # AI Chat Application Interface
 
 This project is an AI chat application interface developed using React for the frontend and Nest.js for the backend. It allows users to interact with an AI assistant through a simple and user-friendly chat interface.
 
@@ -52,6 +52,7 @@ By default, it will be accessible at http://localhost:3002 (As i have used this 
 ## Test the project
  Play with the functionsof chat bot
 
-## Contribute
-#### This project is a basic simple REGEX based response algorithm implementation . It can be mademore vivid and robust using NLP.
+## Contribute and Future Scope
+#### This project is a basic simple REGEX based response algorithm implementation . It can be made more vivid and robust using NLP or other AI tools integration.
+#### We can also integrate OPEN AI using its API to make this a GPT like tool. 
 #### Feel free to contribute by making a pull request
